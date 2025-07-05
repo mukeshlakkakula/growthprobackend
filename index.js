@@ -5,8 +5,8 @@ const PORT = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: "*",
-    methods: ["GET", "POST", "PUT", "DELETE"],
+    origin: "https://growthproaifrontend.vercel.app",
+    methods: ["GET", "POST"],
     credentials: true,
   })
 );
